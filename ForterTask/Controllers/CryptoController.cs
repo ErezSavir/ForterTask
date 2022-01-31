@@ -15,8 +15,8 @@ public class CryptoController : ControllerBase
         _logger = logger;
     }
 
-    [HttpPost("SearchPerformance")]
-    public async Task<IActionResult> SearchPerformance(
+    [HttpPost("SearchCoinPerformance")]
+    public async Task<IActionResult> SearchCoinPerformance(
         [FromBody] SearchRequest request)
     {
         //The service returns it modelled, as per the instruction I return a key value mapping

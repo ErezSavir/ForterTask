@@ -1,8 +1,9 @@
 ﻿using Core.Entities;
+using Core.Entities.Response;
 
 namespace Core.Interfaces;
 
 public interface ICryptoService
 {
-    Task<IEnumerable<CoinPerformanceResponse>> GetPerformanceAsync(IEnumerable<string> symbols, DateTimeOffset date);
+    Task<CoinResponse> GetPerformanceAsync(IEnumerable<string> symbols, DateTimeOffset date);
 }

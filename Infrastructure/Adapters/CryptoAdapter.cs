@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Entities.Requests;
 using Core.Interfaces.Providers;
 using Infrastructure.ExternalServices;
 using Microsoft.Extensions.Logging;
@@ -38,8 +39,8 @@ public class CryptoAdapter : ICryptoProvider
             result.Add(new CoinPerformanceResponse
             {
                 Symbol = symbol,
-                PerformanceInPercentage =
-                    ((currentRate.Rate - historicRate.Rate) / historicRate.Rate * 100).ToString("N") + "%"
+                HistoricRate = historicRate.Rate,
+                CurrentRate = currentRate.Rate
             });
         }
 

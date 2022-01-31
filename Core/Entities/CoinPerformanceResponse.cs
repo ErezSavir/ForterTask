@@ -3,5 +3,6 @@
 public class CoinPerformanceResponse
 {
     public string Symbol { get; set; }
-    public string PerformanceInPercentage { get; set; }
+    public decimal HistoricRate { get; set; }
+    public decimal CurrentRate { get; set; }
 }

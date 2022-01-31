@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Entities.Requests;
 
 namespace Core.Interfaces.Providers;
 

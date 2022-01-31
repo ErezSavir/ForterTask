@@ -1,6 +1,7 @@
 # Forter Task
 #### Crypto Performance
-
+Hosted on:
+https://fortertask.azurewebsites.net/swagger/
 ## To Run
 `cd ForterTask`
 

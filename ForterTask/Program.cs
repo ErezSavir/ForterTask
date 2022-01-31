@@ -1,3 +1,4 @@
+using Core.Builders;
 using Core.Helpers;
 using Core.Interfaces;
 using Core.Interfaces.Providers;
@@ -39,4 +40,5 @@ void RegisterServices()
     builder.Services.AddTransient<ICryptoCompareClient, CryptoCompareClient>();
     builder.Services.AddTransient<IPercentageHelper, PercentageHelper>();
     builder.Services.AddTransient<IPerformanceRequestValidator, PerformanceRequestValidator>();
+    builder.Services.AddTransient<ICoinBuilder, CoinBuilder>();
 }

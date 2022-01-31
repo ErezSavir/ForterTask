@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=049bd16b_002D3b58_002D454b_002Daf74_002Dfa75c693ad0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Calculate_Percentage_Correctly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7ecc6098_002Dfc06_002D4efe_002Db9ca_002D3b6d3599545e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetPerformanceAsync_Invalid_Request" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D4BD1BA5-28E3-46CD-A235-F0B6ED4523A0::net6.0::UnitTests.Services.CryptoServiceTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8345e233_002Dee1c_002D42f6_002Da739_002D5e491fdd5213/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CryptoServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D4BD1BA5-28E3-46CD-A235-F0B6ED4523A0::net6.0::UnitTests.Services.CryptoServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D4BD1BA5-28E3-46CD-A235-F0B6ED4523A0::net6.0::UnitTests.Helpers.PercentageHelperTests.Calculate_Percentage_Correctly&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

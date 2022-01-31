@@ -2,6 +2,6 @@
 
 public class PercentageHelper : IPercentageHelper
 {
-    public decimal GetPercentageIncrease(decimal original, decimal current) => 
-        (current - original) / original* 100;
+    public decimal GetPercentageIncrease(decimal original, decimal current) =>
+        (current - original) / original * 100;
 }
